@@ -1,2 +1,2 @@
-# syndicpointfun.github.io
+# Syndicat.Fun
 Site Syndicat.Fun
