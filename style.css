@@ -1,0 +1,58 @@
+:root {
+    --red-color: #FF4000;
+    --bg-color: #FFFFFF;
+    --title-color: #E90064;
+    --sub-title-color: #060047;
+    --text-color: #3b4045;
+    --link-color: #E90064;
+    --footer-bg-color: #FF5F9E54;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    font-family: monospace, sans-serif;
+    font-weight: 110;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+
+  }
+
+  h1 {
+    color: var(--title-color);
+  }
+
+  h2, h3 {
+    color: var(--sub-title-color);
+  }
+
+  h3 {
+    display: inline;
+  }
+  
+  img {
+    display: block;
+    margin: 15px auto;
+  }
+
+  a, a:visited {
+    color: var(--link-color);
+    text-decoration: underline;
+  }
+
+  summary:hover {
+    cursor: pointer;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: var(--footer-bg-color);
+  }
+
+  #v-finger {
+    font-size: 1.42em;
+  }
