@@ -21,6 +21,10 @@
 
   }
 
+  details {
+    margin-bottom: 25px;
+  }
+
   h1 {
     color: var(--title-color);
   }
@@ -35,6 +39,7 @@
   
   img {
     display: block;
+    max-width: 250px;
     margin: 15px auto;
   }
 
