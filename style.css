@@ -60,6 +60,10 @@
   h3 {
     display: inline;
   }
+
+  h3:hover {
+    text-decoration: underline;
+  }
   
   img {
     display: block;
@@ -84,4 +88,9 @@
 
   #v-finger {
     font-size: 1.42em;
+  }
+
+  #phrase-de-fin {
+    margin: 3em auto;
+    color: var(--title-color);
   }
