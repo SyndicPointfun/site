@@ -96,6 +96,14 @@
 
   #v-finger {
     font-size: 1.42em;
+    font-family: "Twemoji Mozilla",
+               "Apple Color Emoji",
+               "Segoe UI Emoji",
+               "Segoe UI Symbol",
+               "Noto Color Emoji",
+               "EmojiOne Color",
+               "Android Emoji",
+               sans-serif;
   }
 
   #phrase-de-fin {
